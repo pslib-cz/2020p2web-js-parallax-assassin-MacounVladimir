@@ -23,10 +23,10 @@ window.addEventListener('scroll', function() {
     var scroll = window.scrollY;
 
     bg.style.top = scroll * 0 + 'px';
-    l1.style.right = scroll * 0.9 + 'px';
-    l2.style.top = scroll * 0.7 + 'px';
-    man.style.right = -scroll * 0.5 + 'px';
-    l4.style.top = scroll * 0.3 + 'px';
+    l1.style.right = scroll * 0.8 + 'px';
+    l2.style.top = scroll * 0.6 + 'px';
+    man.style.right = -scroll * 0.4 + 'px';
+    l4.style.top = scroll * 0.2 + 'px';
 
     console.log(scroll)
 })
